@@ -54,6 +54,24 @@ input {
     color: #FF0000;
 }
 
+@media (max-width: 768px) { 
+    .campo-contador {
+        width: 60%;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input {
+        width: 50%;
+    }
+
+    #botaoContar {
+        width: 30%;
+    }
+}
+
 @media (max-width: 480px) { 
     .campo-contador {
         width: 80%;
@@ -73,23 +91,5 @@ input {
 
     p {
         font-size: 11px;
-    }
-}
-
-@media (max-width: 768px) { 
-    .campo-contador {
-        width: 60%;
-    }
-
-    label {
-        font-size: 14px;
-    }
-
-    input {
-        width: 50%;
-    }
-
-    #botaoContar {
-        width: 30%;
     }
 }
