@@ -10,10 +10,13 @@ function contar() {
 
     if (isNaN(valorInicial) || isNaN(valorFinal) || isNaN(valorPasso)) {
         resultado.innerHTML = "Digite somente números!";
+        resultado.classList.add("mensagem-erro");
     } else if (valorInicial < 0 || valorFinal < 0 || valorPasso < 0) {
         resultado.innerHTML = "Digite valores maiores que 0!";
+        resultado.classList.add("mensagem-erro");
     } else {
         resultado.innerHTML = "";
+        resultado.classList.remove("mensagem-erro");
         if (valorInicial > valorFinal) {
             let troca = valorInicial;
             valorInicial = valorFinal;
