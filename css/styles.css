@@ -1,0 +1,14 @@
+body {
+    background-color: #00BFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-contador {
+    background-color: #FFFAFA;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
