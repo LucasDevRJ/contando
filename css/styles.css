@@ -54,6 +54,10 @@ input {
     color: #FF0000;
 }
 
+.registro {
+    color: #FFFFFF;
+}
+
 @media (max-width: 768px) { 
     .campo-contador {
         width: 60%;
