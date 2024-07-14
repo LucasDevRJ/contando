@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
 body {
     background-color: #00BFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Playwrite CU", cursive;
+}
+
+h1 {
+    color: #FFFFFF;
 }
 
 .campo-contador {
@@ -12,6 +19,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 30px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .campo-label {
@@ -24,4 +33,15 @@ label {
 
 input {
     padding: 5px 8px;
+}
+
+#botaoContar {
+    margin-top: 30px;
+    padding: 10px;
+    width: 20%;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #00BFFF;
+    color: #FFFFFF;
+    cursor: pointer;
 }
